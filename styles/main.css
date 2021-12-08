@@ -1,0 +1,29 @@
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  border-radius: 10px;
+  transition: 2s linear;
+}
+
+
+.image:hover {
+  transform: scale(1.5,1.5);
+}
+
+
+.button:hover {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #4caf50;
+  cursor: pointer;
+  transform: rotate(5deg);
+}
+
+
+p {
+  display: block;
+  text-align:center;
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+}
